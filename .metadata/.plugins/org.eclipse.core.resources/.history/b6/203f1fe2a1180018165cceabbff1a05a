@@ -1,0 +1,18 @@
+package com.projeto.clases;
+
+public class ClasePrincipal {
+
+	public static void main(String[] args) {
+		
+		Casa miCasa = new Casa();
+		Casa novaCasa = new Casa();
+		abrirGaragem();
+		
+		miCasa.cor="Azul";
+		System.out.println(miCasa.cor);
+		
+		
+
+	}
+
+}

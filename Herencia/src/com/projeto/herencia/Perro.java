@@ -1,0 +1,14 @@
+package com.projeto.herencia;
+
+public class Perro extends Animal {
+	
+	public void ladrar(){
+		System.out.println("Ladrar wow wow!");
+	}
+	
+	public void correr(){
+		super.correr();
+		System.out.println("correr como perro");
+	}
+	
+}

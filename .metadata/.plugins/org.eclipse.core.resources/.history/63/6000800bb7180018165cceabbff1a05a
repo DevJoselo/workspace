@@ -1,0 +1,20 @@
+package com.projeto.herencia;
+
+public class HerenciaPrincipal {
+
+	public static void main(String[] args) {
+		
+		Animal animal = new Animal();
+		
+		animal.correr();
+		animal.dormir();
+		
+		Perro perro = new Perro();
+		perro.correr();
+		perro.dormir();
+		
+		perro.setCor("Blanco");
+		System.out.println( perro.getCor() );
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.projeto.modificadoresdeacceso;
+
+public class ClasePrincipal {
+
+	public static void main(String[] args) {
+
+	}
+
+}

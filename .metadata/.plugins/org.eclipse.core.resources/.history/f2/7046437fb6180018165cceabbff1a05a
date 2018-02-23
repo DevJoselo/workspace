@@ -1,0 +1,27 @@
+package com.projeto.herencia;
+
+public class Animal {
+
+	//Atributos
+	private String tamanho;
+	private String cor;
+	private double peso;
+	
+	//metodos - acciones
+	public void correr(){
+		System.out.println("correr como animal");
+	}
+	
+	public void dormir(){
+		System.out.println("dormir como animal");
+	}
+	
+	//getter and setter
+	public void setCor(String cor){
+		this.cor = cor;
+	}
+	
+	public void getCor(){
+		return this.cor;
+	}
+}

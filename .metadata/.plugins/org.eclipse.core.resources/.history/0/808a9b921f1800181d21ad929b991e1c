@@ -1,0 +1,24 @@
+package com.projeto.condicionais;
+
+public class EstruturasCondicionais {
+
+	public static void main(String[] args) {
+		// Estruturas Condicionais - if else
+		
+		int a = 3;
+		int b = 2;
+		
+		if (a == b) {
+			System.out.println("son iguales");
+		}
+		else if ( a >= b) {
+			System.out.println("son diferentes");
+		}
+		else if (a < b){
+			System.out.println("son diferentes");
+		}
+		else {
+			System.out.println("son diferentes");
+		}
+	}
+}

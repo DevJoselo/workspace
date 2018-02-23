@@ -1,0 +1,16 @@
+package com.projeto.variaveisjava;
+
+public class Variavel {
+
+		//Variáveis
+		//Byte - Números - 1,2,3 -128 até 127 
+		
+	public static void main(String[] args) {
+		
+		byte camelCase;
+		byte minhaVariavelByte = 2;
+		
+		System.out.println(minhaVariavelByte);
+	}
+
+}

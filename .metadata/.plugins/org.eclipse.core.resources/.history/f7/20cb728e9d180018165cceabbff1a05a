@@ -1,0 +1,19 @@
+package com.projeto.metodos;
+
+public class Metodos {
+
+	public static void main(String[] args) {
+		miMetodo();
+		multiplicar(2,5);
+	}
+	
+	public static void miMetodo(){
+		System.out.println("este es mi metodo");
+	}
+
+	public static void multiplicar(int numero1, int numero2){
+		int resultado = 0;
+		resultado = numero1 * numero2;
+		System.out.println(resultado);
+	}
+}

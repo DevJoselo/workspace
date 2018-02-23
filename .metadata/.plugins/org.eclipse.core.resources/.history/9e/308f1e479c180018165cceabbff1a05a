@@ -1,0 +1,25 @@
+package com.projeto.loop;
+
+public class LoopsPrincipal {
+
+	public static void main(String[] args) {
+		
+		int numero = 0;
+		
+		/*
+		while (numero < 5){
+			System.out.println("Loop while: " + numero);
+			numero++;
+		}
+		*/
+		
+		do {	System.out.println("Loop do: " + numero);
+				numero++;
+		}while (numero < 5);
+		
+		
+		
+
+	}
+
+}

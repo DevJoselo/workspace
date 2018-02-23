@@ -1,0 +1,8 @@
+package com.projeto.constructores;
+
+public class Conta {
+
+	//atributos
+	private int numeroConta;
+	private double saldo;
+}

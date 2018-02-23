@@ -1,0 +1,27 @@
+package com.projeto.constructores;
+
+public class Conta {
+
+	//atributos
+	private int numeroConta;
+	private double saldo;
+	
+	//constructor
+	public Conta(int nConta){
+		//Corpo del constructor para que haga exactamente lo que queramos
+		System.out.println("constructor invocado");
+	}
+	
+
+
+	public void teste(){
+		
+	}
+}
+
+// 	constructores y métodos (parecidos y diferencias)
+//*	public Conta(){} constructor
+//	public void teste(){} metodo que no tiene retorno
+//	public String teste(){} metodo que retorna un String
+//	public int teste(){} metodo que retorna un int
+//	public double teste(){} metodo que retorna un double

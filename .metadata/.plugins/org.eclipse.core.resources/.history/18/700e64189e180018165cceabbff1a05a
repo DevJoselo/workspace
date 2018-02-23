@@ -1,0 +1,24 @@
+package com.projeto.metodos;
+
+public class Metodos {
+
+	public static void main(String[] args) {
+		miMetodo();
+		multiplica(2,1);
+		multiplicaRetorno(3,5);
+	}
+	
+	public static void miMetodo(){
+		System.out.println("este es mi metodo");
+	}
+
+	public static void multiplica(int numero1, int numero2){
+		int resultado = 0;
+		resultado = numero1 * numero2;
+		System.out.println(resultado);
+	}
+	
+	public static int multiplicaRetorno(int n1, int n2){
+		return n1*n2;
+	}
+}
